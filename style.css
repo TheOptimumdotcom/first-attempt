@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    overflow-x: hidden;
+    /* font-weight: 700; */
+}
+nav{
+    background: linear-gradient(180deg, #4C38EE 0%, #543DFF 100%);
+    height: 50px;
+    position: relative
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 950px;
+    }
+
+nav ul li {
+    margin-left: 40px;
+    padding-top: 15px;
+} 
+.flag{
+    position: absolute;
+    left: 1125px;
+    top: 18px;
+}
+.dropdown{
+    position: absolute;
+    left: 1202px;
+    top: 21px;
+}
+.herosection{
+    /* height: 731px; */
+    background: linear-gradient(122.29deg, #4C38EE 40.13%, rgba(76, 56, 238, 0.3) 133.77%); 
+    padding-left: 100px;
+    padding-top: 50px;
+    
+}
+.herosection p{
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    padding-left: 40px;
+    /* padding-top: -40px; */
+}
+.navbar{
+    position: relative;
+    top: -60px;
+    left: -30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+    }
+
+.navbar ul li {
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.navbar .dropdown1{
+    position: absolute;
+    top: 25px;
+    left: 305px;
+}
+.navbar .dropdown2{
+    position: absolute;
+    top: 25px;
+    left: 414px;
+}
+.navbar .dropdown3{
+    position: absolute;
+    top: 25px;
+    left: 526px;
+}
+.navbar .dropdown4{
+    position: absolute;
+    top: 25px;
+    left: 635px;
+}
+.section1 .otifplatform{
+    position: absolute;
+    top: 220px;
+    left:120px;
+}
+.section1 h1{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+}
+.section1 .text{
+    padding-right: 400px;
+    margin-left: -33px;
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: -900px;
+}
+.section2{
+    margin-left: -300px;
+    /* padding-left: 275px; */
+    margin-top: -100px;
+    margin-bottom: -140px;
+}
+.section1{
+    padding-right: -500px;
+    margin-right: -100px;
+}
+button{
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #291EF6;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.container1 p{
+    text-align: justify;
+}
+.datadriven h1{
+    color: #4C38EE;
+    font-size: 30px;
+    font-weight: 600;
+}
+.datadriven p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-right: 180px;
+}
+.datadrivenimage{
+    margin-top: -20px;
+    padding-right: 130px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.container2 p{
+    text-align: justify;
+}
+.efficiency h1{
+    color: #4C38EE;
+    font-size: 30px;
+    font-weight: 600;
+}
+.efficiency p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-right: 180px;
+}
+.efficiencyimage{
+    margin-top: -50px;
+    padding-right: 200px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+.container3 p{
+    text-align: justify;
+}
+.ontime h1{
+    color: #4C38EE;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ontime p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-right: 180px;
+}
+.ontimeimage{
+    margin-top: -20px;
+    padding-right: 130px;
+}
+.contact{
+    background-color: #4C38EE;
+    padding-top: 50px;
+    padding-left: 250px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+}
+.contact h1{
+    padding-right: 400px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact p{
+    padding-right: 400px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.contact button{
+     /* margin-left: 650px;
+    margin-bottom: 0px; */
+    /* margin-bottom: 500px; */
+    /* position: absolute;
+    top: 50px; */
+    /* right: 10px; */
+    /* bottom: 500px; */
+    color: white;
+    background-color: #4C38EE;
+    border-radius: 0px;
+    border: 1px solid white;
+    margin-left: -350px;
+}
+.ontimeinfull{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.ontimeinfull p{
+    font-size: 8px;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-top: -5px
+}
+.grid{
+    display: grid;
+    grid-template-columns: 15% 15% 20% 15% 20%;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    margin-bottom: 100px;
+}
+.grid ul{
+    list-style-type: none;
+    margin-left: 80px;
+}
+.grid ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    /* margin-left: 100px; */
+}
+.grid .inblue{
+    color: #0000FF;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 80px;
+    /* padding-right: 100px; */
+}
+.grid .grid1 .ontime{
+    font-size: 10px;
+}
+.grid .grid5{
+    position: relative;
+}
+.subscribe{
+    background-color: blue;
+}
+#email{
+    margin-left: 80px;
+}
+.grid .grid5 input[type=submit]{
+    /* margin-left: 80px; */
+    background-color: #3722D3;
+    color: white;
+    border-radius: 5px;
+    padding: 11px;
+    margin-top: 10px;
+    border: 0px;
+    position: absolute;
+    top: 40px;
+    left: 280px
+
+}
+#email{
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 38px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    border: 1px solid rgb(235, 233, 233);
+    /* position: absolute; */
+}
+hr{
+    color: rgba(60, 99, 176, 0.2);
+    margin-top: 0px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+    color: #0000FF;
+    font-size: 10px;
+    font-weight: 500;
+}

@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1216px){
+    nav ul{
+        margin-left: 500px;
+    }
+    .flag{
+        position: absolute;
+        left: 677px;
+        top: 18px;
+    }
+    .dropdown{
+        position: absolute;
+        left: 750px;
+        top: 21px;
+    }
+    .section2{
+        display: none;
+    }
+    .section1 h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section1 .text{
+        padding-right: 200px;
+    }
+    .herosection{
+        padding-bottom: 100px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container2{
+        flex-direction: column;  
+    }
+    .container3{
+        flex-direction: column;  
+    }
+    .datadrivenimage{
+        margin-top: 20px;
+    }
+    .efficiencyimage{
+        margin-top: 20px;
+    }
+    .ontimeimage{
+        margin-top: 20px;
+    }
+    .contact{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .contact h1{
+        padding-right: 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .contact p{
+        padding-right: 20px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .contact button{
+        margin-left: 0px;
+        margin-top: 0px;
+    }    
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* .grid .inblue{
+        line-height: 18px;
+    } */
+}
+
+
+
+@media only screen and (max-width: 770px){
+    nav ul{
+        margin: 0 auto;
+    }
+    .flag{
+        position: absolute;
+        left: 175px;
+        top: 18px;
+    }
+    .dropdown{
+        position: absolute;
+        left: 250px;
+        top: 21px;
+    }
+     .section1 h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section1 .text{
+        padding-right: 200px;
+    }
+    
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    /* #logoandnav{
+        display: flex;
+        flex-direction: column;
+    } */
+    .navbar{
+        position: relative;
+        top: 0px;
+        left: -245px;
+        margin-bottom: 20px;
+    }
+    .otifplatform{
+        margin-top: 55px;
+    }
+    .navbar ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .navbar .dropdown1{
+        position: absolute;
+        top: 25px;
+        left: 305px;
+    }
+    .navbar .dropdown2{
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: 424px;
+    }
+    .navbar .dropdown3{
+        position: absolute;
+        top: 64px;
+        left: 314px;
+    }
+    .navbar .dropdown4{
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 423px;
+    }
+
+}
